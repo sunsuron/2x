@@ -1,0 +1,65 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+* {
+	border-radius: 0 !important;
+}
+
+#footer {
+	border-top: none !important;
+}
+
+.shadow {
+	box-shadow: 3px 3px 14px 5px rgba(0, 0, 0, .2) !important;
+	background-color: #fff !important;
+}
+
+.huge {
+	font-size: 30px !important;
+}
+
+.card {
+	margin-bottom: 20px !important;
+}
+
+#page-title {
+	padding: 2rem 0 !important;
+}
+
+#page-title h1 {
+	letter-spacing: normal !important;
+	text-transform: none !important;
+}
+
+@media screen and (max-width: 767px) {
+
+	.table-responsive>.table>tbody>tr>td,
+	.table-responsive>.table>tbody>tr>th,
+	.table-responsive>.table>tfoot>tr>td,
+	.table-responsive>.table>tfoot>tr>th,
+	.table-responsive>.table>thead>tr>td,
+	.table-responsive>.table>thead>tr>th {
+		white-space: nowrap;
+	}
+}
+
+.task-wrap {
+	padding: 20px 0 !important;
+}
+
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]) {
+	width: 100%;
+}
+
+.bootstrap-select.btn-group,
+.bootstrap-select.btn-group[class*="span"] {
+	margin-bottom: 0;
+}
+
+.pagination {
+	margin-left: 35px;
+}

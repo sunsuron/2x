@@ -1,0 +1,28 @@
+developer login
+---------------------
+email: dev@gmail.com
+passwd: asc
+
+- able to add add/edit/del task
+
+
+client login
+---------------------
+email: client@gmail.com
+passwd: asc
+
+- able to add add/edit/del task
+
+
+superadmin login
+---------------------
+email: admin@gmail.com
+passwd: asc
+
+- able to add add/edit/del task
+
+
+email
+---------------------
+2xrec@olumis.com
+2Xrec777#@!
